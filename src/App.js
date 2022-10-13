@@ -10,6 +10,8 @@ import Contacto from "containers/pages/contacto/contacto";
 import Privacy from 'containers/pages/Privacy';
 import Terms from 'containers/pages/Terms';
 import Home from 'containers/pages/Home'
+import Nosotros from "containers/pages/nosotros/Nosotros";
+
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="/contact" element={<Contacto/>}/>
           <Route path="/privacidad" element={<Privacy/>}/>
           <Route path="/terminos" element={<Terms/>}/>
+          <Route path="/about" element={<Nosotros/>}/>
+
           
 
         </Routes>
